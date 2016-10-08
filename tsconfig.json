@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true    
+    // "module": "commonjs",
+    // "moduleResolution": "node",
+    // "sourceMap": true,
+    // "removeComments": false,
+    // "noImplicitAny": false
+  }
+}
