@@ -5,7 +5,8 @@
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
     "postinstall": "typings install",
-    "serve": "webpack-dev-server --host 127.0.0.1 --port 8000 --inline --progress"
+    "serve": "webpack-dev-server --host 127.0.0.1 --port 8000 --inline --progress",
+    "start": "ts-node server.ts"
   },
   "dependencies": {
     "@angular/common": "~2.0.2",
