@@ -4,9 +4,7 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     entry: "./src/app/main.ts",
     output: {
-        //path: "./dist",
-        path: __dirname + "/__build__",
-        publicPath: "__build__/"
+        path: "./dist",
         filename: "app.bundle.js"
     },
     module: {
