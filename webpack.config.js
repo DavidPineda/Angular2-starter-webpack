@@ -9,7 +9,14 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.ts$/, loader: "ts"}
+            {
+                test: /\.ts$/,
+                loaders: ['awesome-typescript-loader', 'angular2-template-loader'], exclude: /node_modules/
+            },
+            {
+                test: /\.html$/,
+                loader: 'html'
+            }
         ]
     },
     resolve: {
